@@ -8,6 +8,11 @@
 			"url": "http://localhost:3000",
 			"sourceMaps": true,
 			"webRoot": "${workspaceRoot}"
+			// Uncomment this to run easily alongside another running instance of Chrome
+			// "userDataDir": "${workspaceRoot}/.vscode/chrome",
+
+			// Uncomment this to get diagnostic logs in the console
+			// "diagnosticLogging": true
 		},
 		{
 			"name": "Attach with sourcemaps",
